@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="sesion/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css\font-awesome-4.7.0\css\font-awesome.css">
+</head>
+<body>
+    <header>
+                <div id="logo">
+                    <h3 class="titulo">SOFT COMPUTERS </h3>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a>Promocion</a></li>
+                        <li><a href="login.html">Sesion</a></li>
+                        <li><a href="catalogo.html">Catalogo</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span> Crear Cuenta</span>
+        </div>
+        
+        <div class="formulario">
+            <h2>Iniciar Sesión</h2>
+            <form action="#" onsubmit="comprobarlogin()">
+                <input id="txtusuario" type="text" placeholder="Usuario" required>
+                <input id="txtpassword" type="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+        
+        <div class="formulario">
+            <h2>Crea tu Cuenta</h2>
+            <form action="#">
+                <input id="txtuser" type="text" placeholder="Usuario" required>
+                
+                <input id="txtpass" type="password" placeholder="Contraseña" required>
+                
+                <input id="txtemail" type="email" placeholder="Correo Electronico" required>
+                
+                <input id="txtcel" type="text" placeholder="Teléfono" required>
+                
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+        <div class="reset-password">
+            <a href="#">Olvide mi Contraseña?</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+
+    <!--c script src="sesion/js/jquery-3.1.1.min.js"></script -->    
+    <script src="sesion/js/main.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
